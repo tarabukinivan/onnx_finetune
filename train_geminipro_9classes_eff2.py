@@ -16,7 +16,7 @@ import numpy as np
 # ================= КОНФИГУРАЦИЯ =================
 DATA_DIR = 'datasets19_57_combi'
 CSV_FILE = 'datasets19_57_combi/labels_nv400.csv'
-MODEL_SAVE_PATH = 'best_model_b4_clean.pth'
+MODEL_SAVE_PATH = 'best_model_b4_clean_eff2.pth'
 
 IMG_SIZE = 380
 BATCH_SIZE = 16  # Увеличиваем батч (память позволяет, т.к. нет сложных вычислений весов)
